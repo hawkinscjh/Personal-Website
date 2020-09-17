@@ -33,3 +33,5 @@ p {
     background-color: #4CAF50;
     color: white;
 }
+
+.school-inner span { display:block;float:right;width:50%;margin-left:10px;}

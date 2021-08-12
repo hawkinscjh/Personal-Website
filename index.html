@@ -1,82 +1,93 @@
 ﻿<!doctype html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="javascript" href="./public/js/script.js">
     <title>Casey Hawkins</title> 
 </head>
 <body>
     <img class="profile_pic" src="./public/images/casey_rocheport.jpg" width="350" height="300">
     <h1 class="name">Casey Hawkins</h1>
-    <h2 class="desc">Student in Oregon State University's Computer Science Program</h2> 
-    <ul class="social">
-        <li><a href="https://www.linkedin.com/in/casey-hawkins-6249a0a7/">LinkedIn</a></li>
-        <li><a href="https://github.com/hawkinscjh">GitHub</a></li>                  
-    </ul>
 
-    <p>
-        I am a student in Oregon State University's online postbacc computer science program,
-        interested in working in software development after I complete the program in May 2023.
-        Currently I am in the Kansas City area.
-        My hobbies include running, reading, hiking, and watching movies and TV.
-        New hobbies include improving my programming knowledge and working on personal projects to add
-        to this GitHub portfolio to show off my growing knowledge in the field.
-    </p>
+    <div class="intro">
+        <h2 class="desc">Student in Oregon State University's Computer Science Program</h2> 
+        <ul class="social">
+            <li><a href="https://www.linkedin.com/in/casey-hawkins-6249a0a7/">LinkedIn</a></li>
+            <li><a href="https://github.com/hawkinscjh">GitHub</a></li>                  
+        </ul>
 
-    <h2 class="heading">Courses completed so far (ordered by most recent)</h2>
-    <div class="item">
-        <h3 class="title">Databases</h3>
-        <p class="summary">
-            Over the course of 8 weeks, I worked alongside a partner to develop a website with full CRUD (Create, Read, Update, Delete) backend/server interaction capabilities utilizing mySQL and Node.js, as well as HTML/Handlebars, CSS and Javascript.
-            The website was a fictional grocery supply with the ability to add/search/delete/update clients, contacts, sales reps, orders and products. Check out the project on <a href="https://github.com/hawkinscjh/cs340_database">GitHub</a>.
-        </p>
-    </div>   
-    <div class="item">
-        <h3 class="title">Parallel Programming</h3>
-        <p class="summary">
-            This class' focus was on how to speed the execution of programs using parallelism and covered topics in multicore programming using OpenMP, hyperthreading, data and functional decomposition, single instruction multiple data (SIMD), GPU computing/parallelism with CUDA and OpenCL, and message passing interfaces (MPI).
-        </p>
-    </div>         
-    <div class="item">
-        <h3 class="title">Data Structures</h3>
-        <p class="summary">
-            Studied common data structures in CS such as: deques, stacks, queues, linked lists, binary search trees, heaps, and hash maps. In addition, learned in-depth Big-O notation, as well as Dijkstra’s, depth-first and breadth-first search algorithms.
-            Projects include implementing my own data structure for each of the structures listed.
-        </p>
-    </div>
-    <div class="item">
-        <h3 class="title">Computer Architecture and Assembly Language</h3>
-        <p class="summary">
-            Learned in-depth how computers work (CPUs, RAM, binary/hexadecimal notation), the IA32 computer architecture and assembly language using MASM.
-        </p>
-        <p></p>
-    </div>
-    <div class="item">
-        <h3 class="title">Web Development</h3>
-        <p class="summary">
-            Notable projects include creating a website using HTML, CSS, Javascript and node.js. Topics also covered mySQL and server interaction.
-        </p>
-        <p></p>
-    </div>
-    <div class="item">
-        <h3 class="title">Discrete Structures in CS</h3>
-        <p class="summary">
-            Studied the logic of CS, such as set theory, proofs, sequences and summations, recurrence relations, combinatorics and graph theory.
-        </p>
-        <p></p>
-    </div>
-    <div class="item">
-        <h3 class="title">Intro to Computer Science I and II</h3>
-        <p class="summary">
-            The basics of computer science and programming using python. Designed and implemented programs that utilize multiple classes, inheritance, polymorphism, modularity, linear structures, test-data sets and recursion/iteration.
-        </p>
-    </div>
-
-    <h2 class="heading">Work Experience</h2>
-    <div class="item">
-        <h3 class="title">Field Service Technician - <span class="place">Hach</span> <span class="year">(2019 - Present)</span></h3>
         <p>
-            Cooperate with a team of technicians to complete calibration, validation, preventative maintenance and repair of Hach equipment in both lab and process water testing in drinking water, wastewater, pharmaceutical and industrial application.
-            While this job does not utilize any computer science knowledge, I plan to use my knowledge in chemistry and experience working with other technicians and customers on water testing equipment to help improve and innovate on current water testing software and technology.
+            I am a student in Oregon State University's online postbacc computer science program,
+            interested in working in software development after I complete the program in May 2023.
+            Currently I am in the Kansas City area.
+            My hobbies include running, reading, hiking, and watching movies and TV.
+            New hobbies include improving my programming knowledge and working on personal projects to add
+            to this GitHub portfolio to show off my growing knowledge in the field.
         </p>
+    </div>
+
+    <div class="course_history">
+        <h2 class="heading">Courses completed so far (ordered by most recent)</h2>
+        <div class="item">
+            <h3 class="title">Databases</h3>
+            <p class="summary">
+                Over the course of 8 weeks, I worked alongside a partner to develop a website with full CRUD (Create, Read, Update, Delete) backend/server interaction capabilities utilizing mySQL and Node.js, as well as HTML/Handlebars, CSS and Javascript.
+                The website was a fictional grocery supply with the ability to add/search/delete/update clients, contacts, sales reps, orders and products. Check out the project on <a href="https://github.com/hawkinscjh/cs340_database">GitHub</a>.
+            </p>
+        </div>   
+        <div class="item">
+            <h3 class="title">Parallel Programming</h3>
+            <p class="summary">
+                This class' focus was on how to speed the execution of programs using parallelism and covered topics in multicore programming using OpenMP, hyperthreading, data and functional decomposition, single instruction multiple data (SIMD), GPU computing/parallelism with CUDA and OpenCL, and message passing interfaces (MPI).
+            </p>
+        </div>         
+        <div class="item">
+            <h3 class="title">Data Structures</h3>
+            <p class="summary">
+                Studied common data structures in CS such as: deques, stacks, queues, linked lists, binary search trees, heaps, and hash maps. In addition, learned in-depth Big-O notation, as well as Dijkstra’s, depth-first and breadth-first search algorithms.
+                Projects include implementing my own data structure for each of the structures listed.
+            </p>
+        </div>
+        <div class="item">
+            <h3 class="title">Computer Architecture and Assembly Language</h3>
+            <p class="summary">
+                Learned in-depth how computers work (CPUs, RAM, binary/hexadecimal notation), the IA32 computer architecture and assembly language using MASM.
+            </p>
+            <p></p>
+        </div>
+        <div class="item">
+            <h3 class="title">Web Development</h3>
+            <p class="summary">
+                Notable projects include creating a website using HTML, CSS, Javascript and node.js. Topics also covered mySQL and server interaction.
+            </p>
+            <p></p>
+        </div>
+        <div class="item">
+            <h3 class="title">Discrete Structures in CS</h3>
+            <p class="summary">
+                Studied the logic of CS, such as set theory, proofs, sequences and summations, recurrence relations, combinatorics and graph theory.
+            </p>
+            <p></p>
+        </div>
+        <div class="item">
+            <h3 class="title">Intro to Computer Science I and II</h3>
+            <p class="summary">
+                The basics of computer science and programming using python. Designed and implemented programs that utilize multiple classes, inheritance, polymorphism, modularity, linear structures, test-data sets and recursion/iteration.
+            </p>
+        </div>
+    </div>
+
+    <div class="work_history">
+        <h2 class="heading">Work Experience</h2>
+        <div class="item">
+            <h3 class="title">Field Service Technician - <span class="place">Hach</span> <span class="year">(2019 - Present)</span></h3>
+            <p>
+                Cooperate with a team of technicians to complete calibration, validation, preventative maintenance and repair of Hach equipment in both lab and process water testing in drinking water, wastewater, pharmaceutical and industrial application.
+                While this job does not utilize any computer science knowledge, I plan to use my knowledge in chemistry and experience working with other technicians and customers on water testing equipment to help improve and innovate on current water testing software and technology.
+            </p>
+        </div>
     </div>
 </body>
 </html>

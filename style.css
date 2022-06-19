@@ -6,6 +6,9 @@
 .nav-item-active {
     color: white;
 }
+.navbar-brand {
+    color: white;
+}
 
 /* hero background image */
 .bgimage {

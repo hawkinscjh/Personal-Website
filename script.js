@@ -7,6 +7,6 @@ window.onscroll = function() {
         header.classList.add('navbarDark');
     }
     else {
-        header.classList.remove('navbarDark');
+        header.classList.add('navbarDark');
     }
 }

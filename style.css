@@ -25,12 +25,13 @@
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
+/*  display background color black on navbar scroll  */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
 /* about section image css */
 .imageAboutPage {
     width: 100%;
 }
 
-/*  display background color black on navbar scroll  */
-.navbarScroll.navbarDark {
-    background-color: black;
-}

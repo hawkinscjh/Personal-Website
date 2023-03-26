@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
         <div class="container">
-            <a class="navbar-brand" style="color: white;" href="#">Casey</a>
+            <a class="navbar-brand" style="color: white;" href="#">Casey Hawkins</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,9 +31,6 @@
                     <li class="nav-item">
                         <a class="nav-link" style="color: white;" href="#portfolio">Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: white;" href="#contact">Contact</a>
-                    </li>
                 </ul>
                 
             </div>
@@ -45,7 +42,7 @@
     <div class="container-fluid">
         <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-            <h2 class="hero_title">Casey</h2>
+            <h2 class="hero_title">Casey Hawkins</h2>
             <p class="hero_desc">BS Computer Science in June 2023</p>
         </div>
         </div>
@@ -62,13 +59,13 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <p> I am a student in Oregon State University's online postbacc computer science program,
+                    <p> 
+                        I am a student in Oregon State University's online postbacc computer science program,
                         interested in working in software development after I complete the program in May 2023.
                         Currently I am in the Kansas City area.
                         My hobbies include running, reading, hiking, and watching movies and TV.
                         New hobbies include improving my programming knowledge and working on personal projects to add
                         to this GitHub portfolio to show off my growing knowledge in the field.
-                        
                     </p>
                     <div class="row mt-3">
                         <div class="col-md-6">
@@ -83,7 +80,7 @@
                         </div>
                         <div class="col-md-6">
                             <ul>
-                                
+                                Hello?
 
                             </ul>
                         </div>
@@ -96,18 +93,21 @@
             </div>
     </section>
 
-    <!-- projects section-->
     <section id="portfolio">
         <div class="container mt-3">
             <h1 class="text-center">Projects</h1>
+
             <div class="row">
+
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/Alien_in_a_UFO_Cartoon.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/Area56_pic.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Grocery Supply Database</h4>
-                            <p class="card-text">I worked alongside a partner to develop a website with full CRUD (Create, Read, Update, Delete) backend/server interaction capabilities utilizing mySQL and Node.js, as well as HTML/Handlebars, CSS and Javascript.
-                                The website was a fictional grocery supply with the ability to add/search/delete/update clients, contacts, sales reps, orders and products for OSU's CS340: Intro to Databases</p>
+                            <p class="card-text">
+                                In collaboration with a partner, we developed a RESTful website to supply fictional grocery stores with products. Created using Javascript/HTML/CSS,
+                                 Node.js/Express.Js, and a mySQL database hosted on AWS.
+                            </p>
                             <div class="text-center">
                                 <a href="https://github.com/hawkinscjh/cs340_database" class="btn btn-success">GitHub Link</a>
                             </div>
@@ -120,8 +120,11 @@
                         <img class="card-img-top" src="images/GoogleCloud.webp" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Scheduling API</h4>
-                            <p class="card-text">An API hosted on Google Cloud that allows employees to upload their schedule availabilities and employers to upload a schedule based on these availabilities.
-                                Built with Flask. Created for OSU's CS493: Cloud Application Development.
+                            <p class="card-text">
+                                Created a full stack work scheduling API hosted on Google Cloud Platform using Python, Django,
+                                and Flask with Google's noSQL Datastore backend. Testing of API functions was implemented using
+                                Postman. Project was created using sprints, user stories and implements a partner's microservice
+                                that converts JSON schedules into a downloadable CSV format.
                             </p>
                             <div class="text-center">
                                 <a href="https://github.com/hawkinscjh/Schedule-Hawk-01" class="btn btn-success">GitHub Link</a>
@@ -131,28 +134,36 @@
                 </div>
 
                 <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/SpaceInvaders.PNG" alt="Card image" style="width:100%">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/smallsh.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Space Invaders Clone with Pygame</h4>
-                            <p class="card-text">A primitive Space Invaders clone created in an effort to learn Pygame and strengthen my Python skills.</p>
+                            <h4 class="card-title">smallsh: bash-like shell in C</h4>
+                            <p class="card-text">
+                                Implemented my own shell in C. smallsh implements a command line interface similar to well-known shells, such as bash.
+                            </p>
                             <div class="text-center">
-                                <a href="https://github.com/hawkinscjh/SpaceInvaders" class="btn btn-success">GitHub Link</a>
+                                <a href="https://github.com/hawkinscjh/smallsh-bash-clone-" class="btn btn-success">GitHub Link</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+            </div> <!-- end row -->
+
             <br>
+            <!-- next row -->
             <div class="row">
+
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/python-socket-connection-diagram.png" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/top.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Client-Server Chat</h4>
-                            <p class="card-text">A client-server chat created for OSU's CS372: Intro to Computer Networks</p>
+                            <h4 class="card-title">One-Time Pad Encrypt/Decrypt with Sockets in C</h4>
+                            <p class="card-text">
+                                Encrypt plaintext and decrypt ciphertext using a key, implementing sockets and separate encryption/decryption servers.
+                            </p>
                             <div class="text-center">
-                                <a href="https://github.com/hawkinscjh/CS372-Client-Server-Chat" class="btn btn-success">GitHub Link</a>
+                                <a href="https://github.com/hawkinscjh/One-Time-Pad-Encrypt-Decrypt-with-Sockets-in-C" class="btn btn-success">GitHub Link</a>
                             </div>
                         </div>
                     </div>
@@ -163,14 +174,33 @@
                         <img class="card-img-top" src="images/GessGame.png" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Gess and FBoard</h4>
-                            <p class="card-text">Games made for OSU's CS161 and CS162: Intro to Computer Programming I and II that showcase my ability to follow strict guidelines for a program and implement fully functioning games using just Python.</p>
+                            <p class="card-text">
+                                Games made for OSU's CS161 and CS162: Intro to Computer Programming I and II that showcase my ability to follow strict guidelines for a 
+                                program and implement fully functioning games using just Python.
+                            </p>
                             <div class="text-center">
                                 <a href="https://github.com/hawkinscjh/CS161-CS162-Projects" class="btn btn-success">GitHub Link</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/SpaceInvaders.PNG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Space Invaders Clone with Pygame</h4>
+                            <p class="card-text">
+                                A primitive Space Invaders clone created in an effort to learn Pygame and strengthen my Python skills.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/hawkinscjh/SpaceInvaders" class="btn btn-success">GitHub Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end row -->
     </section>
 
      <!-- footer section-->
